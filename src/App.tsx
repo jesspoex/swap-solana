@@ -6,30 +6,30 @@ import { Routes } from "./routes";
 function App() {
   return (
     <div className="App">
+  <Routes />
 
-      <Routes />
-      
-      <div className="social-buttons">
-        <GitHubButton
-          href="https://github.com"
-          data-color-scheme="no-preference: light; light: light; dark: light;"
-          data-icon="octicon-star"
-          data-size="large"
-          data-show-count={true}
-          aria-label="Star SniperProject/sniper-swap on GitHub"
-        >
-          Star
-        </GitHubButton>
-        <GitHubButton
-          href="https://github.com"
-          data-color-scheme="no-preference: light; light: light; dark: light;"
-          data-size="large"
-          aria-label="Fork SniperProject/sniper-swap on GitHub"
-        >
-          Fork
-        </GitHubButton>
-      </div>
-    </div>
+  <div className="social-buttons">
+    <a
+      href="https://twitter.com/quantitybuild"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <button>
+        Follow on Twitter
+      </button>
+    </a>
+    <a
+      href="https://discord.gg/RAbZs9wuxF"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <button>
+        Join Discord
+      </button>
+    </a>
+  </div>
+</div>
+
   );
 }
 
