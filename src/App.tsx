@@ -3,8 +3,6 @@ import "./App.less";
 import GitHubButton from "react-github-btn";
 import { Routes } from "./routes";
 
-import { FaTwitter, FaDiscord } from 'react-icons/fa'; // Import ikon Twitter dan Discord
-
 function App() {
   return (
     <div className="App">
@@ -17,7 +15,7 @@ function App() {
           rel="noopener noreferrer"
         >
           <button>
-            <FaTwitter /> twitter
+            twitter
           </button>
         </a>
         <a
@@ -26,7 +24,7 @@ function App() {
           rel="noopener noreferrer"
         >
           <button>
-            <FaDiscord /> Discord
+            Discord
           </button>
         </a>
       </div>
