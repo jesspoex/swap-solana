@@ -10,7 +10,7 @@
       "tokenSymbol": "QB",
       "mintAddress": "4iGtA8VSTFNFjXdQZiSkMkM2sS4x21tC9y5DAU9WxoQd",
       "tokenName": "Quantity Build",
-      "icon": "https://arweave.net/Pg5DdUVvKwY6iaqFMsXwomg7H40CFzHyG14E7PJyn9s,true"
+      "icon": "https://arweave.net/Pg5DdUVvKwY6iaqFMsXwomg7H40CFzHyG14E7PJyn9s"
     },
     {
       "tokenSymbol": "USDC",
@@ -33,8 +33,8 @@
     {
       "tokenSymbol": "LQ",
       "mintAddress": "2vPkFo4oNs6ZSzVAvMfF9FP9W2aXGX2JacWu4XTqVpsi",
-      "tokenName": "LQ QB",
-      "icon": "QB.jpg"
+      "tokenName": "Labs Quantity",
+      "icon": "https://hsypzioxgjp2euwe2szhe7zcc4y4cvd4umahmuekoposojdz476a.arweave.net/PLD8odcyX6JSxNSycn8iFzHBVHyjAHZQinPdJyR55_w"
     },
     {
       "tokenSymbol": "RAY",
