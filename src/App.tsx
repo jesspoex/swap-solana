@@ -11,7 +11,7 @@ function App() {
       
       <div className="social-buttons">
         <GitHubButton
-          href="https://github.com/SniperProject/sniper-swap"
+          href="https://github.com"
           data-color-scheme="no-preference: light; light: light; dark: light;"
           data-icon="octicon-star"
           data-size="large"
@@ -21,7 +21,7 @@ function App() {
           Star
         </GitHubButton>
         <GitHubButton
-          href="https://github.com/SniperProject/sniper-swap/fork"
+          href="https://github.com"
           data-color-scheme="no-preference: light; light: light; dark: light;"
           data-size="large"
           aria-label="Fork SniperProject/sniper-swap on GitHub"
