@@ -5,7 +5,7 @@ import { useConnectionConfig } from "./connection";
 import { useLocalStorageState } from "./utils";
 
 export const WALLET_PROVIDERS = [
-  { name: "sollet.io", url: "https://www.sollet.io" },
+  { name: "phantom", url: "https://phantom.app" },
   { name: "solflare.com", url: "https://solflare.com/access-wallet" },
   { name: "mathwallet.org", url: "https://www.mathwallet.org" },
 ];
@@ -16,7 +16,7 @@ export function WalletProvider({ children = null as any }) {
   const { endpoint } = useConnectionConfig();
   const [providerUrl, setProviderUrl] = useLocalStorageState(
     "walletProvider",
-    "https://www.sollet.io"
+    "https://phantom.app"
   );
   const wallet = useMemo(() => new Wallet(providerUrl, endpoint), [
     providerUrl,
