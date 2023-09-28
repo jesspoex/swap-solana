@@ -15,9 +15,8 @@ export type ENV = "mainnet-beta";
 export const ENDPOINTS = [
   {
     name: "mainnet-beta" as ENV,
-    endpoint: "https://api.mainnet-beta.solana.com",
+    endpoint: "https://neat-hidden-sanctuary.solana-mainnet.discover.quiknode.pro/2af5315d336f9ae920028bbb90a73b724dc1bbed",
   },
-  { name: "localnet" as ENV, endpoint: "http://127.0.0.1:8899" },
 ];
 
 const DEFAULT = ENDPOINTS[0].endpoint;
