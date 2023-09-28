@@ -15,7 +15,7 @@ export type ENV = "mainnet-beta" | "testnet" | "devnet" | "localnet";
 export const ENDPOINTS = [
   {
     name: "mainnet-beta" as ENV,
-    endpoint: "https://price.jup.ag/v4",
+    endpoint: "https://api.mainnet-beta.solana.com",
   },
   { name: "testnet" as ENV, endpoint: clusterApiUrl("testnet") },
   { name: "devnet" as ENV, endpoint: clusterApiUrl("devnet") },
