@@ -15,7 +15,7 @@ export type ENV = "mainnet-beta";
 export const ENDPOINTS = [
   {
     name: "mainnet-beta" as ENV,
-    endpoint: "https://rpc.helius.xyz/?api-key=fc42ef9e-390c-481b-ad42-39fcacc20efe",
+    endpoint: "https://quote-api.jup.ag/v4/swap",
   },
 ];
 
