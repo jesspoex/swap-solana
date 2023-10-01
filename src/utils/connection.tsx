@@ -15,7 +15,7 @@ export type ENV = "mainnet-beta";
 export const ENDPOINTS = [
   {
     name: "mainnet-beta" as ENV,
-    endpoint: "https://quote-api.jup.ag/v4/swap",
+    endpoint: "https://token.jup.ag/all",
   },
 ];
 
