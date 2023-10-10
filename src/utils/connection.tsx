@@ -10,13 +10,13 @@ import React, { useContext, useEffect, useMemo } from "react";
 import { setProgramIds } from "./ids";
 import { notify } from "./notifications";
 
-export type ENV = "mainnet-beta";
-
-export const ENDPOINTS = [
+export const ENDPOINTS: EndpointInfo[] = [
   {
-    name: "mainnet-beta" as ENV,
-    endpoint: "https://rpc.helius.xyz/?api-key=fc42ef9e-390c-481b-ad42-39fcacc20efe",
+    name: 'mainnet-beta',
+    endpoint: 'https://solana-api.projectserum.com',
+    custom: false,
   },
+  { name: 'localnet', endpoint: 'http://127.0.0.1:8899', custom: false },
 ];
 
 const DEFAULT = ENDPOINTS[0].endpoint;
