@@ -39,6 +39,7 @@ const getAccountInfo = async (connection: Connection, pubKey: PublicKey) => {
 
   const buffer = Buffer.from(info.data);
 
+  // Pastikan format data sesuai dengan yang diharapkan
   const data = deserializeAccount(buffer);
 
   const details = {
@@ -60,8 +61,12 @@ const getMintInfo = async (connection: Connection, pubKey: PublicKey) => {
 
   const data = Buffer.from(info.data);
 
-  return deserializeMint(data);
+  // Pastikan format data sesuai dengan yang diharapkan
+  const mintInfo = deserializeMint(data);
+
+  return mintInfo;
 };
+
 
 export const cache = {
   getAccount: async (connection: Connection, pubKey: string | PublicKey) => {
