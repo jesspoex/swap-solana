@@ -10,7 +10,7 @@ function App() {
 
       <div className="social-buttons">
         <a
-          href="https://twitter.com/quantitybuild"
+          href="https://twitter.com/solanagreen1"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -19,7 +19,7 @@ function App() {
           </button>
         </a>
         <a
-          href="https://discord.gg/kaYtnXZNW6"
+          href="https://discord.gg/Tpm5Js3NVY"
           target="_blank"
           rel="noopener noreferrer"
         >
