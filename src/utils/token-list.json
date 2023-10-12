@@ -13,6 +13,12 @@
       "icon": "https://raw.githubusercontent.com/trustwallet/assets/f3ffd0b9ae2165336279ce2f8db1981a55ce30f8/blockchains/ethereum/assets/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48/logo.png"
     },
     {
+      "tokenSymbol": "USDC",
+      "mintAddress": "7VUUicqKYFVmewg1U4w4e9K4FoEYdTcYyxYCPhRNf5Qy",
+      "tokenName": "GREEN",
+      "icon": "https://arweave.net/6AahGkZcQ1NrJ0Uknkpe87-QEGowVnyMmRQ1sAdIikklogo.png"
+    },
+    {
       "tokenSymbol": "USDT",
       "mintAddress": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
       "tokenName": "USDT",
