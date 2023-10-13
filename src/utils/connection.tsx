@@ -15,7 +15,7 @@ export type ENV = "mainnet-beta" | "testnet" | "devnet" | "localnet";
 export const ENDPOINTS = [
   {
     name: "mainnet-beta" as ENV,
-    endpoint: "https://light-billowing-diagram.solana-mainnet.discover.quiknode.pro/87635c52ccce51dba392d41340a43349524b8c98/",
+    endpoint: "https://solana-api.projectserum.com/",
   },
   { name: "testnet" as ENV, endpoint: clusterApiUrl("testnet") },
   { name: "devnet" as ENV, endpoint: clusterApiUrl("devnet") },
